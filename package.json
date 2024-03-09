@@ -7,6 +7,7 @@
   "main": "./src/server-workers.js",
   "type": "module",
   "scripts": {
+    "start": "node ./src/server-workers.js",
     "clean": "npm run clean:wrangler",
     "clean:node": "rm -rf node_modules/ package-lock.json",
     "clean:wrangler": "rm -rf worker/ dist/",
